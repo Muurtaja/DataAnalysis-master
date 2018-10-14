@@ -97,6 +97,10 @@ public class HomeActivity extends Activity {
 
 
 
+
+
+    //comments
+
     public  void checkPermission()
     {
         Dexter.withActivity(this)
