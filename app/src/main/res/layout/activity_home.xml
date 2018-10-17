@@ -12,22 +12,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="45dp"
-        android:text="Read Call Log"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="0dp" />
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="34dp"
+        android:text="Read Call Log" />
 
     <Button
         android:id="@+id/btn_sms"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="170dp"
-        android:text="Read Incoming SMS"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="125dp"
+        android:text="Read Incoming SMS" />
 
     <Button
         android:id="@+id/btn_outgoing_sms"
@@ -35,10 +37,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
         android:layout_marginLeft="0dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginTop="236dp"
         android:text="Read Outgoing SMS" />
 
     <Button
@@ -47,12 +49,26 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
         android:layout_marginLeft="0dp"
-        android:layout_marginBottom="306dp"
+        android:layout_marginTop="323dp"
         android:text="Call Duration per Number" />
 
+    <Button
+        android:id="@+id/summaryID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="423dp"
+        android:text="Call and sms Summary"
+        android:textAllCaps="false"
+
+        />
 
 
 </RelativeLayout>
